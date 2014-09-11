@@ -1,29 +1,26 @@
 ---
-abstract: unknown
+abstract: 'Prevent Perlsecret operators and constants.'
 author:
-  - unknown
+  - 'Lance Wicks <lancew@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: '0'
+  Perl::Critic::TestUtils: '0'
+  Test::FailWarnings: '0'
+  Test::More: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
-dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.140640'
-license: unknown
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.140640'
+license: gpl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
 name: Perl-Critic-Policy-Perlsecret
-no_index:
-  directory:
-    - t
-    - inc
 requires:
   Carp: '0'
-  File::Spec: '0'
   Perl::Critic::Policy: '0'
   Perl::Critic::Utils: '0'
-  Test::Deep: '0'
-  Test::FailWarnings: '0'
-  Test::More: '0'
-  Test::Perl::Critic::Policy: '0'
+  base: '0'
+  perl: '5.006001'
+  strict: '0'
+  warnings: '0'
 version: v0.0.2

@@ -1,4 +1,0 @@
-do{ my $x = {
-       'Perl-Critic-Policy-Perlsecret-*' => 1
-     };
-$x; }
