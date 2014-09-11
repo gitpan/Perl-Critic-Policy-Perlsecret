@@ -20,7 +20,7 @@ Version 0.0.1
 
 =cut
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.3';
 
 =head1 AFFILIATION
 
