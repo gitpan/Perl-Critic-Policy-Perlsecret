@@ -3,7 +3,7 @@
 This archive contains the distribution Perl-Critic-Policy-Perlsecret,
 version 0.0.3:
 
-  Prevent Perlsecret operators and constants.
+  Prevent perlsecrets entering your codebase
 
 This software is Copyright (c) 2014 by Lance Wicks.
 

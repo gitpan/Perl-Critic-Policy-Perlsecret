@@ -1,5 +1,5 @@
 ---
-abstract: 'Prevent Perlsecret operators and constants.'
+abstract: 'Prevent perlsecrets entering your codebase'
 author:
   - 'Lance Wicks <lancew@cpan.org>'
 build_requires:
@@ -23,4 +23,8 @@ requires:
   perl: '5.006001'
   strict: '0'
   warnings: '0'
+resources:
+  bugtracker: https://github.com/lancew/Perl-Critic-Policy-Perlsecret/issues
+  homepage: https://github.com/lancew/Perl-Critic-Policy-Perlsecret
+  repository: https://github.com/lancew/Perl-Critic-Policy-Perlsecret.git
 version: 0.0.3

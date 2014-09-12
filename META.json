@@ -1,0 +1,55 @@
+{
+   "abstract" : "Prevent perlsecrets entering your codebase",
+   "author" : [
+      "Lance Wicks <lancew@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.140640",
+   "license" : [
+      "gpl_3"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Perl-Critic-Policy-Perlsecret",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "Perl::Critic::Policy" : "0",
+            "Perl::Critic::Utils" : "0",
+            "base" : "0",
+            "perl" : "5.006001",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Perl::Critic::TestUtils" : "0",
+            "Test::FailWarnings" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "testing",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/lancew/Perl-Critic-Policy-Perlsecret/issues"
+      },
+      "homepage" : "https://github.com/lancew/Perl-Critic-Policy-Perlsecret",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/lancew/Perl-Critic-Policy-Perlsecret.git",
+         "web" : "https://github.com/lancew/Perl-Critic-Policy-Perlsecret"
+      }
+   },
+   "version" : "0.0.3"
+}
+

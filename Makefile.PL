@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker ;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Prevent Perlsecret operators and constants.",
+  "ABSTRACT" => "Prevent perlsecrets entering your codebase",
   "AUTHOR" => "Lance Wicks <lancew\@cpan.org>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
