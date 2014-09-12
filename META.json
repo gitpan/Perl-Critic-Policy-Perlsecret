@@ -24,7 +24,7 @@
             "Carp" : "0",
             "Perl::Critic::Policy" : "0",
             "Perl::Critic::Utils" : "0",
-            "base" : "0",
+            "parent" : "0",
             "perl" : "5.006001",
             "strict" : "0",
             "warnings" : "0"
@@ -50,6 +50,6 @@
          "web" : "https://github.com/lancew/Perl-Critic-Policy-Perlsecret"
       }
    },
-   "version" : "0.0.3"
+   "version" : "0.0.4"
 }
 

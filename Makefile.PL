@@ -23,7 +23,7 @@ my %WriteMakefileArgs = (
     "Carp" => 0,
     "Perl::Critic::Policy" => 0,
     "Perl::Critic::Utils" => 0,
-    "base" => 0,
+    "parent" => 0,
     "strict" => 0,
     "warnings" => 0
   },
@@ -32,7 +32,7 @@ my %WriteMakefileArgs = (
     "Test::FailWarnings" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.0.3",
+  "VERSION" => "0.0.4",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -46,7 +46,7 @@ my %FallbackPrereqs = (
   "Perl::Critic::Utils" => 0,
   "Test::FailWarnings" => 0,
   "Test::More" => 0,
-  "base" => 0,
+  "parent" => 0,
   "strict" => 0,
   "warnings" => 0
 );

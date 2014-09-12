@@ -19,7 +19,7 @@ requires:
   Carp: '0'
   Perl::Critic::Policy: '0'
   Perl::Critic::Utils: '0'
-  base: '0'
+  parent: '0'
   perl: '5.006001'
   strict: '0'
   warnings: '0'
@@ -27,4 +27,4 @@ resources:
   bugtracker: https://github.com/lancew/Perl-Critic-Policy-Perlsecret/issues
   homepage: https://github.com/lancew/Perl-Critic-Policy-Perlsecret
   repository: https://github.com/lancew/Perl-Critic-Policy-Perlsecret.git
-version: 0.0.3
+version: 0.0.4

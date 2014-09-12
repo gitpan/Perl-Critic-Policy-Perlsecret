@@ -5,7 +5,7 @@ use 5.006001;
 use strict;
 use warnings;
 
-use base 'Perl::Critic::Policy';
+use parent 'Perl::Critic::Policy';
 
 use Carp;
 use Perl::Critic::Utils;
@@ -80,7 +80,15 @@ Perl::Critic::Policy::Perlsecret - Prevent perlsecrets entering your codebase
 
 =head1 VERSION
 
-version 0.0.3
+version 0.0.4
+
+=head1 NAME
+
+Perl::Critic::Policy::Perlsecret - Prevent perlsecrets entering your codebase
+
+=head1 VERSION
+
+version 0.0.4
 
 =head1 AUTHOR
 
