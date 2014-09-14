@@ -38,7 +38,7 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "web" : "https://github.com/lancew/Perl-Critic-Policy-Perlsecret/issues"
